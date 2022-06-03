@@ -1,0 +1,36 @@
+.global-error {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 5px;
+  background: linear-gradient(red, darkred);
+  padding: 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 100vh rgba(0,0,0,.7);
+}
+
+.global-error__text {
+  font-family: var(--font3);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.global-error__button {
+  display: block;
+  width: 50%;
+  height: 2rem;
+  background: maroon;
+  border: none;
+  border-radius: 5px;
+  margin: 10px auto 0;
+  font-family: var(--font3);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.global-error__button:hover {
+  filter: brightness(80%);
+}

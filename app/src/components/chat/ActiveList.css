@@ -1,0 +1,33 @@
+.active-list__userbox {
+  display: none;
+}
+
+.active-list__userbox.active {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.active-list__list {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 5%;
+  box-sizing: border-box;
+  display: flex;
+  overflow-x: scroll;
+}
+
+@media (min-width: 550px) {
+
+  .active-list__userbox {
+    display: block;
+    height: auto;
+  }
+
+  .active-list__list {
+    flex-direction: column;
+    overflow: auto;
+    padding: 0;
+  }
+
+}

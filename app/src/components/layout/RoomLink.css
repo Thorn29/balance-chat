@@ -1,0 +1,52 @@
+.room-link {
+  min-height: 5rem;
+  display: flex;
+  margin: 1rem 0;
+}
+
+.room-link__enter {
+  border: none;
+  background: var(--primary);
+  padding: 0 5px;
+  border-radius: 3px;
+  font-family: var(--font1);
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.room-link__enter:hover {
+  filter: brightness(80%);
+}
+
+.room-link__info {
+  margin: 0 10px;
+}
+
+.room-link__title {
+  font-family: var(--font3);
+  font-size: 1.2rem;
+  color: white;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.room-link__desc {
+  font-family: var(--font2);
+  color: #b0b0b0;
+  font-size: .8rem;
+}
+
+.room-link__author {
+  margin-left: auto;
+  align-self: center;
+  font-family: var(--font1);
+  font-size: .8rem;
+  color: white;
+  min-width: 50px;
+  padding: 0 3px;
+}
+
+.room-link__author a {
+  color: var(--primary);
+}

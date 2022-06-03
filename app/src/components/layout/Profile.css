@@ -1,0 +1,98 @@
+.profile {
+  width: 80%;
+  height: 5rem;
+  background: var(--secondary);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 2.5rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profile.admin {
+  position: fixed;
+  bottom: 15px;
+  left: calc(10% - 1rem);
+  margin: none;
+}
+
+.profile__info {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.profile__name {
+  font-family: var(--font3);
+  font-size: 1.3rem;
+  color: white;
+  font-weight: normal;
+}
+
+.profile__email {
+  font-family: var(--font2);
+  font-size: .9rem;
+  color: var(--trans-white);
+}
+
+.profile__count {
+  margin: 0 10px;
+}
+
+.profile__number {
+  font-family: var(--font2);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.profile__stat {
+  font-family: var(--font2);
+  font-size: .7rem;
+  color: var(--trans-white);
+  text-align: center;
+}
+
+.profile__button {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  background: var(--primary);
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: .5rem;
+  right: -2rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.profile__button:hover {
+  filter: brightness(80%);
+}
+
+@media (min-width: 768px) {
+
+.profile, .profile.admin {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: auto;
+  padding: 1rem 1.5rem 1rem 0;
+  margin: 0 2rem;
+}
+
+.profile__button {
+  width: 3rem;
+  height: 3rem;
+  right: -1.5rem;
+  font-size: 1.5rem;
+}
+
+}

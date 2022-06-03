@@ -1,0 +1,132 @@
+.active-dock {
+  padding: 5px 0;
+}
+
+.active-dock__header {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.active-dock__title {
+  font-family: var(--font3);
+  font-size: 1.3rem;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.active-dock__desc {
+  font-family: var(--font2);
+  font-style: italic;
+  font-size: .8rem;
+  color: #b0b0b0;
+  max-width: 90%;
+  margin: .5rem auto 1rem;
+}
+
+.active-dock__admin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.active-dock__admin-button {
+  width: 40%;
+  border: none;
+  background: none;
+  font-family: var(--font1);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.active-dock__admin-button:last-of-type {
+  color: red;
+  border: 1px solid red;
+}
+
+.active-dock__error {
+  width: 86%;
+  font-family: var(--font1);
+  font-size: .7rem;
+  color: red;
+  margin: 1rem auto;
+}
+
+.active-dock__exit {
+  padding: 5px 1rem 3px;
+  background: var(--dark-em);
+  font-family: var(--font1);
+  font-size: .9rem;
+  color: var(--primary);
+  margin: 0 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,.3);
+  cursor: pointer;
+}
+
+.active-dock__exit:hover {
+  background: var(--primary);
+  color: black;
+}
+
+.active-dock__group {
+  font-family: var(--font2);
+  font-size: .9rem;
+  color: white;
+  margin: 10px;
+}
+
+@media (min-width: 550px) {
+
+  .active-dock {
+    width: 20%;
+    min-width: 180px;
+    max-width: 300px;
+    background: var(--secondary);
+  }
+
+  .active-dock__exit {
+    font-size: .7rem;
+    display: block;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  .active-dock__title {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    text-align: left;
+  }
+
+  .active-dock__desc {
+    max-width: 85%;
+  }
+
+  .active-dock__admin-button {
+    border: none;
+    background: var(--primary);
+    color: black;
+    font-size: .7rem;
+    font-weight: bold;
+    padding: 3px 5px;
+    margin: 0 1px;
+    transition: .3s;
+  }
+
+  .active-dock__admin-button:last-of-type {
+    border: none;
+    background: red;
+    color: white;
+  }
+
+  .active-dock__admin-button:hover {
+    filter: brightness(70%);
+  }
+
+}

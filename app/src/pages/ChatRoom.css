@@ -1,0 +1,21 @@
+.chat-room {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-room__chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (min-width: 550px) {
+
+  .chat-room {
+    flex-direction: row;
+  }
+
+}

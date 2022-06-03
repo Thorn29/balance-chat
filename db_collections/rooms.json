@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6224fbe1e45938d55139052d"
+  },
+  "title": "General",
+  "desc": "Room for general, non-specific chatting",
+  "author": {
+    "$oid": "6224cae27062e00cef5ed5a4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62320b354239aa10e57e20a6"
+  },
+  "title": "Vacations",
+  "desc": "Discuss travel ideas, and tell us your experiences in locations you already visited",
+  "author": {
+    "$oid": "6224ce028ab305f66672b24c"
+  },
+  "__v": 0
+}]
