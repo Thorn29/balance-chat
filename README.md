@@ -2,7 +2,7 @@
 
 An app made for chatting, which divides users into chat rooms. After authenticating, you can create, edit or delete your own rooms. You can also view other users' profiles, their rooms, and the number of days since they registered. 
 
-[See live demo](http://balance-chat.herokuapp.com)
+[See live demo](https://balance-chat-production.up.railway.app/)
 
 ## Development
 
